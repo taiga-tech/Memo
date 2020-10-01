@@ -9,3 +9,19 @@ e07641928e4b        mysql:8.0           "docker-entrypoint.s…"   17 minutes ag
 docker exec -it 0857ffa46199 bash
 
 docker-compose run --rm web ~
+
+
+docker system df -v
+
+イメージ確認
+docker image ls
+
+キャッシュクリア
+
+docker system prune
+
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all dangling images
+  - all dangling build cache
