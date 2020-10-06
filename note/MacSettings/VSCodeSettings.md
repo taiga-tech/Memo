@@ -18,7 +18,7 @@
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "indent",
     "editor.fontFamily": "Ricty Diminished",
-    "editor.fontSize": 15,
+    "editor.fontSize": 18,
     "editor.suggest.statusBar.visible": true,
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
@@ -26,7 +26,6 @@
     "workbench.editor.restoreViewState": false,
     "workbench.editor.focusRecentEditorAfterClose": false,
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.labelFormat": "short",
     "workbench.editor.openPositioning": "last",
     "workbench.settings.openDefaultKeybindings": true,
     "workbench.settings.openDefaultSettings": true,
@@ -39,7 +38,7 @@
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.enableBell": true,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "problems.showCurrentInStatus": true,
     "task.quickOpen.showAll": true,
@@ -55,8 +54,12 @@
     "editor.autoClosingQuotes": "always",
     "zenMode.hideLineNumbers": false,
     "terminal.integrated.cursorBlinking": true,
+    "editor.renameOnType": true,
+    "workbench.editor.labelFormat": "short",
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
     "emmet.includeLanguages": {
-        "html.erb": "html"
+        "html.erb": "html",
+        "js": "html",
     },
     "emmet.variables": {
         "lang": "ja"
@@ -66,6 +69,10 @@
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
     "liveServer.settings.donotShowInfoMsg": true,
+    "markdown.preview.fontSize": 18,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vscode-mysql.resultTheme": "Dark",
+    "gitlens.views.repositories.files.layout": "list",
 }
 ```
 <br>
