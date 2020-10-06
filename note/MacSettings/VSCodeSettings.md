@@ -81,7 +81,7 @@
 - Japanese Language Pack for Visual Studio Code
     > 日本語化
 
-<!-- - Live Server -->
+- Live Server
     > リアルタイム更新
 
 - Bracket Pair Colorizer
@@ -117,3 +117,15 @@
 - Ruby and Rails Snippets
     > RubyとRailsの補完機能
     > ※HTMLの言語モードがなくなる
+
+- Rainbow CSV
+    > CSVの色分け
+
+- Better Haml
+    > hamlの補完機能
+
+- Docker
+
+- MySQL
+
+- C#
