@@ -26,7 +26,9 @@ ls −la  #隠しファイルを含む全てのファイルやディレクトリ
 カレントディレクトリにあるファイルに移動する。（change directoryの略）
 
 ```bash
-cd test.html  # testテストというファイルに移動する
+ls # lsでカレントディレクトリにあるファイルやディレクトリを確認する
+test.html   test2.html
+cd test.html  # `cd ファイル名` でtest.htmlというファイルに移動する
 cd ~/  #ホームディレクトリに移動する
 cd ..  #一つ上の階層のファイルに移動する
 ```
