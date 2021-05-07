@@ -113,15 +113,14 @@
   **文字色コード**
   |番号|色|
   |:--|:--|
-  |0|black|
-  |1|red|
-  |2|green|
-  |3|yellow|
-  |4|blue|
-  |5|magenta|
-  |6|cyan|
-  |7|white|
-
+  |0|<font color="black">■</font> black|
+  |1|<font color="red">■</font> red|
+  |2|<font color="green">■</font> green|
+  |3|<font color="yellow">■</font> yellow|
+  |4|<font color="blue">■</font> blue|
+  |5|<font color="magenta">■</font> magenta|
+  |6|<font color="cyan">■</font> cyan|
+  |7|<font color="white">■</font> white|
 
   ```shell
   # .zshrc
