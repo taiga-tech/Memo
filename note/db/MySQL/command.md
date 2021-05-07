@@ -442,6 +442,25 @@ lessの設定を終わるときは `nopager` というコマンドで元に戻�
     bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib --with-cppflags=-I/usr/local/opt/openssl/include" # こっちは問題ない
   ```
 
+## DB容量計算
+
+```mysql
+SELECT table_schema "DB",
+Round(Sum(data_length + index_length) / 1024 / 1024, 1) "(MB)"
+FROM information_schema.tables GROUP BY table_schema;
+
++--------------------+------+
+| DB                 | (MB) |
++--------------------+------+
+| information_schema |  0.0 |
+| mysql              |  8.7 |
+| performance_schema |  0.0 |
+| sys                |  0.0 |
+| sampledb           |  0.1 |
++--------------------+------+
+5 rows in set (0.01 sec)
+```
+
 
 
 `CLEARDB_DATABASE_URL => mysql://[username]:[password]@[host]/[database name]?reconnect=true`
