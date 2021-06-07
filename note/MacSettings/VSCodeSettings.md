@@ -6,7 +6,6 @@
 ---
 ```json
 // settings.json
-
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.minimap.enabled": false,
@@ -75,6 +74,92 @@
     "gitlens.views.repositories.files.layout": "list",
 }
 ```
+
+## 更新(2021/06/07)
+
+```json
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renderControlCharacters": true,
+    "editor.showFoldingControls": "always",
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "editor.fontFamily": "Ricty Diminished",
+    "editor.fontSize": 18,
+    "editor.suggest.statusBar.visible": true,
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.restoreViewState": false,
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.openPositioning": "last",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "explorer.incrementalNaming": "smart",
+    "search.showLineNumbers": true,
+    "debug.console.fontSize": 14,
+    "debug.console.fontFamily": "Ricty Diminished",
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "problems.showCurrentInStatus": true,
+    "task.quickOpen.showAll": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.list.openMode": "singleClick",
+    "workbench.editor.enablePreview": false,
+    "window.openFilesInNewWindow": "on",
+    "timeline.pageSize": 0,
+    "terminal.integrated.unicodeVersion": "11",
+    "terminal.integrated.scrollback": 50000,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "always",
+    "zenMode.hideLineNumbers": false,
+    "terminal.integrated.cursorBlinking": true,
+    "editor.renameOnType": true,
+    "workbench.editor.labelFormat": "short",
+    "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+    "emmet.includeLanguages": {
+        "html.erb": "html",
+        "js": "html",
+        "blade.php": "html",
+        "php": "html",
+    },
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    // 拡張機能
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "markdown.preview.fontSize": 18,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vscode-mysql.resultTheme": "Dark",
+    "gitlens.views.repositories.files.layout": "list",
+    "editor.tabSize": 2,
+    "vscode-mysql.loadMetaOnConnect": false,
+    "liveshare.presence": true,
+    "tabnine.experimentalAutoImports": true,
+    "htmltagwrap.tag": "div",
+    "vue3snippets.semi": false,
+    "workbench.colorTheme": "Netlify Dark Theme",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+}
+```
+
 <br>
 
 ## 拡張機能
